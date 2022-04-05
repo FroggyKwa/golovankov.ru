@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body
 {
   font-family: 'Montserrat', sans-serif;
@@ -8,6 +12,8 @@ body
 .navbar
 {
   background-color: #26282E;
+  opacity: 0.99;
+  height: 4em;
 }
 
 .navbar-brand
@@ -15,7 +21,7 @@ body
   font-style: italic;
 }
 
-#hero
+#hero_section
 {
   padding-bottom: 10em;
   color: #E4E4E4;
@@ -62,9 +68,8 @@ body
   background-size: 100% 100%;
 }
 
-#services h2
+#projects_section h2
 {
-  padding-top: 2em;
   padding-bottom: 1em;
 }
 

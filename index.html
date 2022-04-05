@@ -21,21 +21,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#">Home
+                      <a onclick="smoothScroll('hero_section')" class="nav-link" href="##">Home
                           <span class="sr-only">(current)</span>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#services">Projects</a>
+                      <a onclick="smoothScroll('anchor_to_projects_section')" class="nav-link" href="##">Projects</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contacts</a>
+                      <a onclick="smoothScroll('contacts_section')" class="nav-link" href="##">Contacts</a>
                   </li>
               </ul>
           </div>
       </div>
   </nav>
-  <header id="hero" class="jumbotron jumbotron-fluid">
+  <header id="hero_section" class="jumbotron jumbotron-fluid">
     <div id="bio" class="container-fluid text-center">
        <h1 class="display-2">Ilya Golovankov</h1>
        <p class="lead pb-5">18 y.o python programmer</p>
@@ -43,7 +43,8 @@
     </div>
   </header>
 
-  <section id="services" class="container">
+  <div id="anchor_to_projects_section" style="height: 4em;"></div>
+  <section id="projects_section" class="container">
    <h2 id="my_projects" class="display-3 text-center">My projects</h2>
    <div class="row text-center">
       <div class="col-md-4 mb-4">
@@ -92,7 +93,8 @@
      <a id="submit" href="#" class="btn mybtn btn-primary btn-md mb-4" role="button">Get message</a>
    </form>
   </div>
-  <section class="container-fluid text-center py-4" id="contacts">
+
+  <section id="contacts_section" class="container-fluid text-center py-4" id="contacts">
    <h2 class="display-4 pb-4 my-4">Get in touch with me!</h2>
    <ul class="nav justify-content-center">
      <li class="nav-item"><a id="vk" href="https://vk.com/froggling" class="nav-link"></a></li>
@@ -105,6 +107,7 @@
         <p class="text-center">Copyright &copy; Froggling 2022</p>
      </div>
   </footer>
+  <script src="js/script.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
