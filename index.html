@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My first shit</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Golovankov</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contacts</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <header id="hero" class="jumbotron jumbotron-fluid">
+    <div id="bio" class="container-fluid text-center">
+       <h1 class="display-2">Ilya Golovankov</h1>
+       <p class="lead pb-5">18 y.o python programmer</p>
+       <p><a href="#" class="btn btn-outline-primary btn-lg" role="button">Learn More</a></p>
+    </div>
+  </header>
+
+  <section id="services" class="container">
+   <h2 id="my_projects" class="display-3 text-center">My projects</h2>
+   <div class="row text-center">
+      <div class="col-md-4 mb-4">
+         <div class="card h-100">
+            <div class="card-body">
+               <h3 class="card-title">Kwakker</h3>
+               <p class="card-text">A blog site where you can register, post your interesting thoughts and read other people's posts, as well as put likes.</p>
+            </div>
+            <div class="card-footer py-4">
+               <a href="https://github.com/FroggyKwa/Kwakker" class="btn mybtn btn-secondary">See Kwakker</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+         <div class="card h-100">
+            <div class="card-body">
+               <h3 class="card-title">ChatterBox</h3>
+                  <p class="card-text">Graphical chat application written in python using sockets and PyQt5.</p>
+            </div>
+            <div class="card-footer py-4">
+               <a href="https://github.com/FroggyKwa/ChatterBox" class="btn mybtn btn-secondary">See ChatterBox</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+         <div class="card h-100">
+            <div class="card-body">
+               <h3 class="card-title">Kwak Games</h3>
+               <p class="card-text">Multiplayer platform game written in python in the style of cyberpunk, where you have to shoot with other players.</p>
+            </div>
+            <div class="card-footer py-4">
+               <a href="https://github.com/FroggyKwa/kwak_games" class="btn mybtn btn-secondary">See Kwak Games</a>
+            </div>
+         </div>
+      </div>
+   </div>
+  </section>
+  <div id="form" class="container center-block">
+    <form id="feedback" class="justify-content-center">
+     <div class="mb-3">
+       <label for="exampleInputEmail1" class="display-4 pb-3 form-label">Enter your email adress</label>
+       <input placeholder="username@email.domain" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+     </div>
+     <a id="submit" href="#" class="btn mybtn btn-primary btn-md mb-4" role="button">Get message</a>
+   </form>
+  </div>
+  <section class="container-fluid text-center py-4" id="contacts">
+   <h2 class="display-4 pb-4 my-4">Get in touch with me!</h2>
+   <ul class="nav justify-content-center">
+     <li class="nav-item"><a id="vk" href="https://vk.com/froggling" class="nav-link"></a></li>
+     <li class="nav-item"><a id="instagram" href="https://instagram.com/FrogOnTheSun" class="nav-link"></a></li>
+     <li class="nav-item"><a id="telegram" href="https://t.me/froggy_kwa" class="nav-link"></a></li>
+   </ul>
+  </section>
+  <footer class="py-3 bg-light">
+     <div class="container">
+        <p class="text-center">Copyright &copy; Froggling 2022</p>
+     </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

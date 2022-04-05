@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar
+{
+  background-color: #26282E;
+}
+
+.navbar-brand
+{
+  font-style: italic;
+}
+
+#hero
+{
+  padding-bottom: 10em;
+  color: #E4E4E4;
+}
+
+#bio
+{
+  padding-top: 3em;
+  z-index: 2;
+}
+
+.mybtn
+{
+  background-color: #555A66;
+  border: none;
+}
+
+.mybtn:hover
+{
+  background-color: #5F7681;
+  border-color: inherit;
+}
+
+.btn-outline-primary
+{
+  position relative;
+  border-color: #555A66;
+  color: #FFFFFF;
+}
+.btn-outline-primary:hover
+{
+  background-color: #5F7681;
+  border-color: #5F7681;
+}
+
+.jumbotron
+{
+  position: relative;
+  background: url("../static/bg.jpg") no-repeat center center, #525252;
+  background-blend-mode: multiply;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+#services h2
+{
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#contacts
+{
+  position: relative;
+  margin-top: 10em;
+}
+
+#vk
+{
+  padding: 1em;
+  background-image: url(../static/vk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+}
+
+#instagram
+{
+  padding: 1em;
+  background-image: url(../static/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 2em;
+}
+#telegram
+{
+  padding: 1em;
+  background-image: url(../static/telegram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+}
+
+#form
+{
+  margin-top: 10em;
+  display: block;
+  text-align: center;
+}
+
+#feedback
+{
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+
+#submit
+{
+  display: inline;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-left: 16.9em;
+  text-align: center;
+}
