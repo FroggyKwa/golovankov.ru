@@ -118,7 +118,7 @@ body
 #mail
 {
   padding: 1em;
-  background-image: url(../static/telegram.png);
+  background-image: url(../static/mail.png);
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
@@ -141,16 +141,11 @@ body
 #feedback
 {
    display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   margin: auto;
 }
 
 #submit
 {
-  display: inline;
-  padding-right: 1em;
-  padding-left: 1em;
-  margin-left: 16.9em;
+  margin: 2em;
   text-align: center;
 }
