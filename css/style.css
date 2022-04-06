@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
 
+
+* {
+  margin: 0;
+  padding 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -148,4 +154,9 @@ body
 {
   margin: 2em;
   text-align: center;
+}
+
+.navbar-collapse {
+  background-color: #26282E;
+  opacity: 0.99;
 }
