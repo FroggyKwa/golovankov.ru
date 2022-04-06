@@ -1,4 +1,4 @@
-c<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@ c<!DOCTYPE html>
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top p-2">
       <div class="container">
           <a class="navbar-brand" href="index.html">Golovankov</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -17,20 +17,19 @@ c<!DOCTYPE html>
           aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <li id="home-navitem" class="nav-item active">
-                      <a onclick="smoothScroll('hero_section')" class="nav-link" href="##">Home</a>
-                  </li>
-                  <li id="projects-navitem" class="nav-item">
-                      <a onclick="smoothScroll('anchor_to_projects_section')" class="nav-link" href="##">Projects</a>
-                  </li>
-                  <li id="contacts-navitem" class="nav-item">
-                      <a onclick="smoothScroll('contacts_section')" class="nav-link" href="##">Contacts</a>
-                  </li>
-              </ul>
-          </div>
+      </div>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-3">
+              <li id="home-navitem" class="nav-item active">
+                  <a onclick="smoothScroll('hero_section')" class="nav-link" href="##">Home</a>
+              </li>
+              <li id="projects-navitem" class="nav-item">
+                  <a onclick="smoothScroll('anchor_to_projects_section')" class="nav-link" href="##">Projects</a>
+              </li>
+              <li id="contacts-navitem" class="nav-item">
+                  <a onclick="smoothScroll('contacts_section')" class="nav-link" href="##">Contacts</a>
+              </li>
+          </ul>
       </div>
   </nav>
 
@@ -95,7 +94,7 @@ c<!DOCTYPE html>
    <h2 class="display-4 pb-4 my-4">Get in touch with me!</h2>
    <ul class="nav justify-content-center">
      <li class="nav-item"><a id="vk" href="https://vk.com/froggling" class="nav-link"></a></li>
-     <li class="nav-item"><a id="mail" href="https://t.me/froggy_kwa" class="nav-link"></a></li>
+     <li class="nav-item"><a onclick="openMailDialog()"href="##" id="mail" class="nav-link"></a></li>
      <li class="nav-item"><a id="instagram" href="https://instagram.com/FrogOnTheSun" class="nav-link"></a></li>
      <li class="nav-item"><a id="telegram" href="https://t.me/froggy_kwa" class="nav-link"></a></li>
    </ul>

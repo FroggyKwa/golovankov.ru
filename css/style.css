@@ -17,14 +17,16 @@ body
 
 .navbar
 {
+  padding: 0;
   background-color: #26282E;
   opacity: 0.99;
-  height: 4em;
 }
 
 .navbar-brand
 {
   font-style: italic;
+  font-size: 1.2em;
+  padding-left: 3em;
 }
 
 #hero_section
