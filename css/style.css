@@ -19,7 +19,7 @@ body
 {
   padding: 0;
   background-color: #26282E;
-  opacity: 0.99;
+  opacity: 0.995;
 }
 
 .navbar-brand
@@ -76,6 +76,7 @@ body
 {
   position: relative;
   background: url("../static/bg.jpg") no-repeat center center, #525252;
+  background-attachment: fixed;
   background-blend-mode: multiply;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
