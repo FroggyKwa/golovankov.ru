@@ -43,6 +43,8 @@ body
 
 .mybtn
 {
+  width: 10rem;
+  margin-bottom: 0.5rem; 
   background-color: #555A66;
   border: none;
 }
