@@ -1,167 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
 
 * {
-  margin: 0;
-  padding 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anonymous Pro', monospace;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-size: 1.15em;
 }
 
-body
-{
-  font-family: 'Montserrat', sans-serif;
-}
-
-.navbar
-{
-  padding: 0;
-  background-color: #26282E;
-  opacity: 0.995;
-}
-
-.navbar-brand
-{
-  font-style: italic;
-  font-size: 1.2em;
-  padding-left: 3em;
-}
-
-#hero_section
-{
-  padding-bottom: 10em;
-  color: #E4E4E4;
-}
-
-#bio
-{
-  padding-top: 20em;
-  z-index: 2;
-}
-
-.mybtn
-{
-  width: 10rem;
-  margin-bottom: 0.5rem; 
-  background-color: #555A66;
-  border: none;
-}
-
-.mybtn:hover
-{
-  background-color: #5F7681;
-  border-color: inherit;
-}
-
-.mybtn:focus
-{
-  background-color: #5F7681;
-  outline-color: #5F7681;
-  border-color: inherit;
-}
-
-.btn-outline-primary
-{
-  position relative;
-  border-color: #555A66;
-  color: #FFFFFF;
-}
-.btn-outline-primary:hover
-{
-  background-color: #5F7681;
-  border-color: #5F7681;
-}
-
-.jumbotron
-{
-  position: relative;
-  background: url("../static/bg.jpg") no-repeat center center, #525252;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-}
-
-#projects_section h2
-{
-  padding-bottom: 1em;
-}
-
-#contacts
-{
-  position: relative;
-  margin-top: 10em;
-}
-
-#vk
-{
-  padding: 1em;
-  background-image: url(../static/vk.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  margin: 2em;
-}
-
-#instagram
-{
-  padding: 1em;
-  background-image: url(../static/instagram.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  margin: 2em;
-}
-#telegram
-{
-  padding: 1em;
-  background-image: url(../static/telegram.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  margin: 2em;
-}
-
-#mail
-{
-  padding: 1em;
-  background-image: url(../static/mail.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  margin: 2em;
-
-}
-
-#form
-{
-  margin-top: 10em;
-  display: block;
-  text-align: center;
-}
-
-.form-control:focus {
-  border-color: #5F7681;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5F7681;
-}
-
-#feedback
-{
-   display: inline-block;
-   margin: auto;
-}
-
-#submit
-{
-  margin: 2em;
-  text-align: center;
+.navbar {
+    background-color: rgba(0, 0, 0, 0.58);
+    padding: 0;
 }
 
 .navbar-collapse {
-  background-color: #26282E;
-  opacity: 0.99;
+    opacity: 1;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-size: 1.2em;
+    padding-left: 3em;
+}
+
+#hero_section {
+    padding-bottom: 10em;
+    color: #E4E4E4;
+}
+
+#bio {
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 20em;
+    z-index: 2;
+}
+
+.mybtn {
+    width: 10rem;
+    margin-bottom: 0.5rem;
+    background-color: #555A66;
+    border: none;
+}
+
+.mybtn:hover {
+    background-color: #5F7681;
+    border-color: inherit;
+}
+
+.mybtn:focus {
+    background-color: #5F7681;
+    outline-color: #5F7681;
+    border-color: inherit;
+}
+
+.btn-outline-primary {
+    position: relative;
+    border-color: #555A66;
+    color: #FFFFFF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5F7681;
+    border-color: #5F7681;
+}
+
+.jumbotron {
+    position: relative;
+    background: #525252 url("../static/background_vladivostok.jpg") no-repeat fixed center center;
+    background-blend-mode: multiply;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#projects_section h2 {
+    padding-bottom: 1em;
+}
+
+#contacts {
+    position: relative;
+    margin-top: 10em;
+}
+
+#vk {
+    padding: 1em;
+    background-image: url(../static/vk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 2em;
+}
+
+#instagram {
+    padding: 1em;
+    background-image: url(../static/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 2em;
+}
+
+#telegram {
+    padding: 1em;
+    background-image: url(../static/telegram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 2em;
+}
+
+#mail {
+    padding: 1em;
+    background-image: url(../static/mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 2em;
+
+}
+
+#form {
+    margin-top: 10em;
+    display: block;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #5F7681;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5F7681;
+}
+
+#feedback {
+    display: inline-block;
+    margin: auto;
+}
+
+#submit {
+    margin: 2em;
+    text-align: center;
 }

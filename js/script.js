@@ -10,18 +10,11 @@ $(window).scroll(function() {
        document_bot = $('#bot').offset().top,
        wH = $(window).height(),
        current_pos = $(this).scrollTop();
-       if ((current_pos > element_top) && (current_pos < document_bot - wH)) {
+       if (current_pos > element_top) {
 
-         $('#contacts-navitem')[0].classList.remove("active");
          $('#home-navitem')[0].classList.remove("active");
          $('#projects-navitem')[0].classList.add("active");
-
           }
-       else if (current_pos >= document_bot - wH)
-       {
-       $('#projects-navitem')[0].classList.remove("active");
-       $('#contacts-navitem')[0].classList.add("active");
-       }
        else {
          $('#projects-navitem')[0].classList.remove("active");
          $('#home-navitem')[0].classList.add("active");
