@@ -82,36 +82,13 @@ html {
 }
 
 #contacts {
-    position: relative;
-    margin-top: 10em;
-}
-
-#vk {
+    background: #efefef;
+    height: fit-content;
+    margin: 0 25% 1% 25%;
+    border-radius: 20px;
     padding: 1em;
-//    background-image: url(../static/vk.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 2em;
-}
-
-#telegram {
-    padding: 1em;
-//    background-image: url(../static/telegram.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 2em;
-}
-
-#mail {
-    padding: 1em;
-//    background-image: url(../static/mail.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 2em;
-
+    gap: 5rem;
+    align-items: center;
 }
 
 #form {
@@ -135,6 +112,8 @@ html {
     text-align: center;
 }
 
-.bottom-info {
-    height: calc(100vh - 6.5rem)
+
+.nav-link svg {
+    width: 50px;
+    height: 50px;
 }
