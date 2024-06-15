@@ -68,6 +68,7 @@ html {
 
 .jumbotron {
     position: relative;
+    height: 100vh;
     background: #525252 url("../static/background_vladivostok.jpg") no-repeat fixed center center;
     background-blend-mode: multiply;
     -webkit-background-size: 100% 100%;
@@ -132,4 +133,8 @@ html {
 #submit {
     margin: 2em;
     text-align: center;
+}
+
+.bottom-info {
+    height: calc(100vh - 6.5rem)
 }
